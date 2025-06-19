@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="container">
+    <h1>Upload Your Files</h1>
+    <div class="upload-area" onclick="document.getElementById('fileInput').click();">
+      <p>Click or Drag & Drop Files Here</p>
+      <input type="file" id="fileInput" multiple>
+    </div>
+    <ul id="fileList">
+      <!-- Uploaded file names will appear here -->
+    </ul>
+  </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
